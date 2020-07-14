@@ -35,6 +35,7 @@ def extract_access_token():
     token_data = get_token_data()
     token_headers = get_token_header()
     r = requests.post(token_url, data=token_data, headers=token_headers)
+    
     if r.status_code in range(200, 299):
         now = datetime.datetime.now()
         data = r.json()

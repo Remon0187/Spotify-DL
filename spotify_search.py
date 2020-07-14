@@ -44,6 +44,7 @@ if __name__ == "__main__":
     
     while config['user']['playlist_id'] == '':
         playlist_id_new = input(colored('We need the Playlist ID. Please enter the ID: ','yellow'))
+        
         if playlist_id_new == '':
             continue
         config['user']['playlist_id'] = playlist_id_new
