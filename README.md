@@ -7,6 +7,6 @@ Ask for Playlist ID
 
 
 # To-Do 💡
-Integrate youtube-dl python.
-Custom search
-Merge YT playlist with Spotify playlist
+*Integrate youtube-dl python.
+*Custom search
+*Merge YT playlist with Spotify playlist
