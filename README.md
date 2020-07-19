@@ -1,9 +1,11 @@
 # Spotify-Download 📁
 Find all tracks in a given playlist and download each track from various sources. (YouTube, ZippyShare, 1Gabba)
 
+Max 100 tracks per playlist (Spotify API limitation)
+
 # Done ✔️
-Get all tracks from a given playlist in {artist:track} format.
-Ask for Playlist ID
+*Get all tracks, download each track from youtube to a specified folder. 
+  *(Default folder is 'Downloads' in the Spotify-DL directory)
 
 
 # To-Do 💡
