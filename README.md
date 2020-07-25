@@ -12,11 +12,13 @@ Find all tracks in a given playlist and download each track from YouTube.
 1. Sign up here -> https://developer.spotify.com/dashboard/, create an app.
 2. Enter your client id and secret in config.ini
 3. Get the Playlist ID from the playlist you would like to download:
-	* Select Spotify playlist -> Share -> Copy Spotify UR
+	* Select Spotify playlist -> Share -> Copy Spotify URI
 4. Example: `7hRA3QjxMhHd0YnD0VvExf`
 
 # Usage
 `python3 spotify_download.py`
+
+
 	
 # To-Do 💡
 1. Integrate ZippyShare & 1Gabba
