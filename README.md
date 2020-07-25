@@ -18,7 +18,7 @@ Find all tracks in a given playlist and download each track from YouTube.
 # Usage
 `python3 spotify_download.py`
 
-
+![Example](https://github.com/remonhob/Spotify-DL/blob/master/example.png)
 	
 # To-Do 💡
 1. Integrate ZippyShare & 1Gabba
