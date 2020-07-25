@@ -1,7 +1,7 @@
 # Spotify-Download
 Find all tracks in a given playlist and download each track from YouTube.
 
-# Required modules 🌀
+# Required modules
 * requests
 * configparser
 * urlencode
