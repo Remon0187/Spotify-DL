@@ -56,20 +56,3 @@ def get_user_playlist():
         return song_list
     else:
         print("Invalid request!")
-
-
-"""if __name__ == "__main__":
-
-    while config['user']['playlist_id'] == '':
-        playlist_id_new = input(colored('We need the Playlist ID. Please enter the ID: ', 'yellow'))
-
-        if playlist_id_new == '':
-            continue
-        config['user']['playlist_id'] = playlist_id_new
-        # save to a file
-        with open('config.ini', 'w') as configfile:
-            config.write(configfile)
-            print(colored('Playlist has been updated.', 'green'))
-        continue
-    else:
-        get_user_playlist()"""
