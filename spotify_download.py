@@ -2,6 +2,7 @@ import youtube_dl
 import spotify_search
 from youtube_search import YoutubeSearch
 import json
+from termcolor import colored
 
 
 def get_spotify_playlist():
@@ -11,20 +12,25 @@ def get_spotify_playlist():
 
         for artist, name in track:
 
-            artistname = (f'{artist} {name}')
+            artistname = (f'{artist} {name} extended mix')
             video_id = get_video_id(wanted_item=artistname)
-            download_playlist(id=video_id)
+            if video_id is not None:
+                try:
+                    download_playlist(id=video_id)
+                except:
+                    print(colored(f'video for {artistname} could not be downloaded!', 'red'))
+                
 
 
 def get_video_id(wanted_item):
     search_query = wanted_item
-    results = YoutubeSearch(f'{search_query}', max_results=10).to_json()
-    json_data = json.loads(results)
-
-    for track in json_data['videos']:
-
-        track_id = track['id']
-    return track_id
+    try:
+        results = YoutubeSearch(f'{search_query}', max_results=10).to_json()
+        json_data = json.loads(results)
+        track = json_data['videos'][0]
+        return track['id']
+    except:
+        print(colored(f'video for {wanted_item} could not be found!', 'red'))
 
 """
 Prefer best quality, mp3 codec, extract mp3 with ffmpeg located in ./bin path, exctract to ./downloads folder
