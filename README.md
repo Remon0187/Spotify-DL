@@ -1,10 +1,10 @@
 # Spotify-Download
 Find all tracks in a given playlist and download each track from YouTube.
 
-# Required modules
+## Required modules
 pip install -r requirements.txt
 
-# Configuration ✔️
+## Configuration ✔️
 1. Install required modules: `pip install -r requirements.txt`
 1. Sign up at https://developer.spotify.com/dashboard/, create an app.
 2. Enter your client id and secret in `config.ini`
@@ -13,8 +13,13 @@ pip install -r requirements.txt
 4. Copy the section between playlist/ and ?s=
 	* Example: `7hRA3QjxMhHd0YnD0VvExf`
 
-# Usage
-`python spotify_download.py`
+## Usage
+
+- #### To download a song, run
+
+  ```bash
+  python spotify_downlodad.py [playuUrl]
+  ```
 
 ![Example](https://github.com/remonhob/Spotify-DL/blob/master/example.png)
 	
