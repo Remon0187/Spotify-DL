@@ -1,4 +1,4 @@
-# Spotify-Download 
+# Spotify-DL
 Find all tracks in a given playlist and download each track from YouTube.
 
 ## Required modules 🧾
@@ -15,11 +15,12 @@ Find all tracks in a given playlist and download each track from YouTube.
 
 ## Usage 📘
 
-- #### To download a song, run
+- #### To download a playlist, run
 
   ```bash
-  python spotify_downlodad.py [playuUrl]
+  python spotify_downlodad.py [playlistID]
   ```
+The default playlist download location is C:\Users\<username>\Documents\GitHub\Spotify-DL\Downloads
 
 ![Example](https://github.com/remonhob/Spotify-DL/blob/master/example.png)
 	
