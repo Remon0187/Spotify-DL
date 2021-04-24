@@ -2,7 +2,7 @@
 Find all tracks in a given playlist and download each track from YouTube.
 
 ## Required modules 🧾
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Configuration ✔️
 1. Install required modules: `pip install -r requirements.txt`
