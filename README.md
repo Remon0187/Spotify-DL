@@ -14,7 +14,7 @@ Find all tracks in a given playlist and download each track from YouTube.
 3. Get the Playlist ID from the playlist you would like to download:
 	* Select Spotify playlist -> Share -> Copy link to playlist
 4. This will get you a full playlist link that looks like the following:
-https://open.spotify.com/playlist/ **37i9dQZF1DWXRqgorJj26U** ?si=9f6A6U2jTk-njyZJ64rk3g
+https://open.spotify.com/playlist/ `{playlist ID}` ?si=
 The playlist id is the string right after playlist/ as marked above.
 4. Example: `7hRA3QjxMhHd0YnD0VvExf`
 
