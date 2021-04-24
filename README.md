@@ -10,7 +10,7 @@ Find all tracks in a given playlist and download each track from YouTube.
 2. Enter your client id and secret in `config.ini`
 3. Get the Playlist ID from the playlist you would like to download:
 	* Select Spotify playlist -> Share -> Copy link to playlist
-4. Copy the section between playlist/ and ?s=
+4. Copy the section between playlist/ and ?s= and add to the `config.ini` playlist_id
 	* Example: `7hRA3QjxMhHd0YnD0VvExf`
 
 ## Usage 📘
