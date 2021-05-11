@@ -2,10 +2,12 @@
 Find all tracks in a given playlist and download each track from YouTube.
 
 ## Required modules 🧾
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ## Configuration ✔️
-1. Install required modules: `pip install -r requirements.txt`
+1. Install required modules: ```pip install -r requirements.txt```
 1. Sign up at https://developer.spotify.com/dashboard/, create an app.
 2. Enter your client id and secret in `config.ini`
 3. Get the Playlist ID from the playlist you would like to download:
@@ -19,10 +21,6 @@ Find all tracks in a given playlist and download each track from YouTube.
 
 ```
 python spotify_download.py [playlistID]
-```
-
-```
-ext install esbenp.prettier-vscode
 ```
   
 The default playlist download location is C:\Users\<Username>\Documents\GitHub\Spotify-DL\Downloads
