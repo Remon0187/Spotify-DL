@@ -18,8 +18,11 @@ Find all tracks in a given playlist and download each track from YouTube.
 - #### To download a playlist, run
 
 ```
-
 python spotify_download.py [playlistID]
+```
+
+```
+ext install esbenp.prettier-vscode
 ```
   
 The default playlist download location is C:\Users\<Username>\Documents\GitHub\Spotify-DL\Downloads
