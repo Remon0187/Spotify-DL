@@ -1,7 +1,7 @@
 # Spotify-DL
 - Download a Spotify playlist or song as an MP3 file.
 
-## Required modules 🧾
+## Dependencies 🧾
 ```
 pip install -r requirements.txt
 ```
