@@ -24,8 +24,12 @@ pip install -r requirements.txt
 
 ```
 python spotify_download.py [playlistUrl]
-
 ```
+Example:
+```
+python spotify_download.py https://open.spotify.com/playlist/7xlcXTGPqM2v7lEdHFXyMW?si=542cfedfa8e24ccd
+```
+
 - #### To download a sing, run
 
 ```
