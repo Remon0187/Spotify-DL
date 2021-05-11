@@ -1,5 +1,5 @@
 # Spotify-DL
-Find all tracks in a given playlist and download each track from YouTube.
+- Download a Spotify playlist or song as an MP3 file.
 
 ## Required modules 🧾
 ```
@@ -17,10 +17,19 @@ pip install -r requirements.txt
 
 ## Usage 📘
 
+- #### To find a playlist or song url
+
+
 - #### To download a playlist, run
 
 ```
-python spotify_download.py [playlistID]
+python spotify_download.py [playlistUrl]
+
+```
+- #### To download a sing, run
+
+```
+python spotify_download.py [songUrl]
 ```
   
 The default playlist download location is C:\Users\<Username>\Documents\GitHub\Spotify-DL\Downloads
