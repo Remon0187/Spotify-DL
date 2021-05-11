@@ -9,11 +9,7 @@ pip install -r requirements.txt
 ## Configuration ✔️
 1. Install required modules: ```pip install -r requirements.txt```
 1. Sign up at https://developer.spotify.com/dashboard/, create an app.
-2. Enter your client id and secret in `config.ini`
-3. Get the Playlist ID from the playlist you would like to download:
-	* Select Spotify playlist -> Share -> Copy link to playlist
-4. Copy the section between playlist/ and ?s= and add to the `config.ini` playlist_id
-	* Example: `7hRA3QjxMhHd0YnD0VvExf`
+3. Enter your client id and secret in `config.ini`
 
 ## Usage 📘
 
@@ -30,7 +26,7 @@ Example:
 python spotify_download.py https://open.spotify.com/playlist/7xlcXTGPqM2v7lEdHFXyMW?si=542cfedfa8e24ccd
 ```
 
-- #### To download a sing, run
+- #### To download a song, run
 
 ```
 python spotify_download.py [songUrl]
